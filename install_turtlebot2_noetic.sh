@@ -21,6 +21,7 @@ cd $ws_name/src
 git clone https://gitlab.com/robotcitizens_training/kobuki_turtlebot2_package.git
 cd kobuki_turtlebot2_package
 tar -xf kobuki_turtlebot2_package.tar.xz
+sudo rm -r kobuki_turtlebot2_package.tar.xz
 
 echo "[Download turtlebot2 rplidar package]"
 cd $ws_name/src
