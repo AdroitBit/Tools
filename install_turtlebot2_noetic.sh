@@ -12,7 +12,7 @@ sudo apt-get install ros-noetic-hector-slam
 
 echo "[Creating turtlebot2 workspace]"
 ws_name="turtlebot2_robotcitizen_ws"
-ros_create_ws $ws_name
+mkdir -p $ws_name/src
 cd $ws_name
 ws_name=$(pwd)
 
