@@ -14,7 +14,7 @@ sudo apt install ros-foxy-dynamixel-sdk ros-foxy-turtlebot3-msgs ros-foxy-turtle
 
 echo "[Creating turtlebot3 workspace]"
 ws_name="turtlebot3_ws"
-ros_create_ws $ws_name
+mkdir -p $ws_name/src
 cd $ws_name
 ws_name=$(pwd)
 

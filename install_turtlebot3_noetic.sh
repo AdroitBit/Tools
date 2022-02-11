@@ -19,7 +19,7 @@ sudo apt install -y ros-noetic-dynamixel-sdk  ros-noetic-turtlebot3-msgs ros-noe
 
 echo "[Creating turtlebot2 workspace]"
 ws_name="turtlebot3_ws"
-ros_create_ws $ws_name
+mkdir -p $ws_name/src
 cd $ws_name
 ws_name=$(pwd)
 
